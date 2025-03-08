@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="MyProject PizzaTime" company="" webLink="http://" view-date="2025-02-14" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="ru_RU">
+    <description><![CDATA[Разработка мобильного приложения для курьеров пиццерии с использованием современных технологий FastAPI, PostgreSQL и Kotlin.]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Название" width="200" order="0"/>
+        <field id="tpd4" name="Дата начала" width="75" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="75" order="2"/>
+        <field id="tpd15" name="Заметки" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="199" order="0"/>
+        <field id="1" name="Стандартная роль" width="82" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="нет">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="15dde36b66fb49ec8a942d66de6d3af9" name="Составление плана проекта" meeting="false" start="2025-01-20" duration="3" complete="100" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="957a9bd4ccce472e9108acc98ad3ad19" name="Обзор и анализ актуальных технологий" meeting="false" start="2025-01-23" duration="3" complete="100" expand="true"/>
+        <task id="6" uid="de6b910be9f4449f8d4bc5aef99cf044" name="Изучение и анализ существующих приложений конкурентов" meeting="false" start="2025-01-29" duration="2" complete="100" expand="true"/>
+        <task id="4" uid="8766813f8b7d4449a7e38721781ff062" name="Проектирование структуры, разработка и настройка базы данных" meeting="false" start="2025-02-03" duration="2" complete="100" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="9287a2acd58f4fc59275454f3067cc07" name="Реализация аутентификации и авторизации" meeting="false" start="2025-02-05" duration="7" complete="100" expand="true"/>
+        <task id="8" uid="77a7016fcfa74dda85dbf67def84772a" name="Развертывание серверной части приложения" meeting="false" start="2025-02-12" duration="2" complete="100" expand="true"/>
+        <task id="9" uid="d81a7aa239084549857ee359e6053314" name="Реализация интерфейса мобильного приложения" meeting="false" start="2025-02-17" duration="4" complete="100" expand="true">
+            <task id="13" uid="669fc8a507e34c7f8aee1adcdb08c43e" name="Создание экрана заказа" meeting="false" start="2025-02-20" duration="1" complete="100" expand="true"/>
+            <task id="12" uid="b2235275ccad4863b742b59ea360d0fa" name="Создание экрана личного кабинета" meeting="false" start="2025-02-19" duration="1" complete="100" expand="true"/>
+            <task id="11" uid="f47f55fef44d453bacac5e8472157c80" name="Создание экрана со списком заказов" meeting="false" start="2025-02-18" duration="1" complete="100" expand="true"/>
+            <task id="10" uid="266ec270d6624f16a701d57fbec23ed8" name="Создание экрана аутентификации" meeting="false" start="2025-02-17" duration="1" complete="100" expand="true"/>
+        </task>
+        <task id="15" uid="667d9cd9d196465baa44a6fa74841d4b" name="Поиск и устранение ошибок" meeting="false" start="2025-02-24" duration="5" complete="45" expand="true"/>
+        <task id="16" uid="39d1f013265547e2bd598289fd10df3d" name="Тестирование интерфейса мобильного приложения" meeting="false" start="2025-03-03" duration="5" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Сливина Елизавета" function="2" contacts="elizavetka07@gmail.com" phone="+79029987235">
+            <rate name="standard" value="250"/>
+        </resource>
+        <resource id="1" name="Швецов Кирилл" function="1" contacts="" phone="">
+            <rate name="standard" value="250"/>
+        </resource>
+        <resource id="2" name="Компьютер 1" function="3" contacts="" phone=""/>
+        <resource id="3" name="Ноутбук " function="3" contacts="" phone=""/>
+        <resource id="4" name="Visual Studio Code" function="3" contacts="" phone=""/>
+        <resource id="5" name="Android Studio" function="3" contacts="" phone=""/>
+        <resource id="6" name="Docker" function="3" contacts="" phone=""/>
+        <resource id="7" name="PostgreSQL" function="3" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="4" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="4" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="4" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="5" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="5" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="5" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="7" function="3" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2025-03-08" end="2025-03-16" resourceid="0"/>
+        <vacation start="2025-02-01" end="2025-02-09" resourceid="1"/>
+    </vacations>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="frontend-разработчик"/>
+        <role id="2" name="backend-разработчик"/>
+        <role id="3" name="материальный ресурс"/>
+        <role id="4" name="трудовой ресурс"/>
+    </roles>
+</project>
